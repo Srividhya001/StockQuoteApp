@@ -8,7 +8,8 @@
 
 ## Spring security is enabled for getStockQuote and getAllQuote apis
 - Dependency is SQL DB, download and run the sql server.
-- Create the schema - "security_db" 
+- Create the schema - "security_db"
+- update the apiKey in application.properties by registering to alpha.
 - update the running SQL local server in application.properties as shown below.
 
 `spring.datasource.url=jdbc:mysql://localhost:3306/security_db`
